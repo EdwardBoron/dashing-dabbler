@@ -1,20 +1,22 @@
-program convert
-implicit none          !This doesn't specify the variables without being asked first
-character :: unit*10    !Sets up the unit to be used
-character :: result*10  !Sets up the resulting unit
-character :: again*3
+!The following program is a simple unit converter, which is currently only able to convert kcal and kJ.
 
-real :: numIn
-real :: numOut
-real :: factor
+program convert
+implicit none           !This doesn't specify the variables without being asked first
+character :: unit*10    !Sets up the initial unit to be used
+character :: result*10  !Sets up the resulting unit
+character :: again*3    !Used to start the program over again.
+
+real :: numIn   !The input value specified by the user
+real :: numOut  !The output value
+real :: factor  !The conversion factor
 
 integer :: i,j         !used for the while loops
 
-i = 0
+i = 0    !Can't be too careful
 j = 0
 
-do while (i == 0)
- do while (j == 0)
+do while (i == 0)                                !The big loop for restarting the program
+ do while (j == 0)                               !The loop for specifying the initial unit
   print *,'Input a unit to start with:'
   read '(a)',unit
 
@@ -32,9 +34,9 @@ do while (i == 0)
   end if
  end do
 
- j = 0
+ j = 0    !Saving on variables :)
 
- do while (j == 0)
+ do while (j == 0)                                !The loop for the final unit
   print *,'Input a unit to calculate:'
   read '(a)',result
   
@@ -56,7 +58,10 @@ do while (i == 0)
 
   end if
  end do
-  
+ 
+ !There should be a part that registers the input x to stop doing calculations.
+ !Best to put it after every of the two unit loops -- don't want to cause inconvenience
+ 
  print *,'Input a value'
  read *,numIn
  numOut = numIn * factor
@@ -70,7 +75,7 @@ do while (i == 0)
   i = 1
  else
  end if
- factor = 0
+ factor = 0    !resetting a whole bunch of variables
  numIn = 0
  numOut = 0
  j = 0
