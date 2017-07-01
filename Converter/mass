@@ -1,0 +1,14 @@
+Data for setting up the weights table.
+Setup: unit converter
+***
+g 1 gram
+u 1.66E-24 "atomic mass"
+t 1E+6 ton
+kg 1000 kilogram
+mg 1E-3 milligram
+µg 1E-6 microgram
+st 6350.29318 stone
+lb 453.59237 pound
+oz 28.349523125 ounce
+***
+should have called it "mass"

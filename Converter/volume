@@ -1,0 +1,21 @@
+Data for setting up the time table.
+Setup: unit converter
+***
+m³ 1 "cubic meter"
+bbl 0.158987294928 barrel
+cl 0.00001 centiliter
+cm³ 1E-6 "cubic centimeter"
+dm³ 1E-3 "cubic decimeter"
+ft³ 0.02831684592 "cubic foot"
+in³ 0.000016387064 "cubic inch"
+mm³ 1E-9 "cubic millimeter"
+yd³ 0.764554857984 "cubic yard"
+dal 0.01 dekaliter
+gi 0.00011829411825 gill
+hl 0.1 hectoliter
+kl 1 kiloliter
+l 1E-3 liter
+ml 1E-6 milliliter
+µl 1E-9 microliter
+***
+ft 12.0 foot
