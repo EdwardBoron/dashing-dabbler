@@ -1,0 +1,10 @@
+Data for setting up the time table.
+Setup: unit converter
+***
+"bit/s" 1 "bit/s"
+"kbit/s" 1E+3 "kilobit/second"
+"kB/s" 8E+3 "kilobyte/second"
+"mbit/s" 1E+6 "megabit/second"
+"MB/s" 8E+6 "megabyte/second"
+***
+ft 12.0 foot

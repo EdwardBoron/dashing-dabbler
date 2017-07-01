@@ -1,0 +1,10 @@
+Data for setting up the time table.
+Setup: unit converter
+***
+"m/s" 1 "meters/second"
+"mi/h" 0.44704 "miles/hour"
+"ft/s" 0.3048 "feet/second"
+"km/h" 0.277777777777777 "kilometers/hour"
+kt 0.5144444444 knots
+***
+ft 12.0 foot

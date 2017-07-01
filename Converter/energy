@@ -1,0 +1,20 @@
+Data for setting up the time table.
+Setup: unit converter
+***
+J 1 joule
+kJ 1000 kilojoule
+cal 4.184 calorie
+kcal 4184 kilocalorie
+Wh 3600 "watt-hour"
+kWh 3.6E+6 "kilowatt-hour"
+eV 1.6022E-19 "electron volt"
+btu 1055.06 "british thermal unit"
+ft*lb 1.35582 "foot-pound"
+erg 1E-7 erg
+E_h 4.359744650E-18 hartree
+"kJ/mol" 1.66054E-24 "kilojoule/mole"
+"kcal/mol" 6.94769936E-24 "kilocalorie/mole"
+"1/cm" 1.9863E-23 "wavenumber"
+cm^-1 1.98623E-23 wavenumber
+***
+ft 12.0 foot
